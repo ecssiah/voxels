@@ -1,0 +1,49 @@
+# Target directory
+/target/
+
+# Build artifacts
+**/*.rlib
+**/*.rmeta
+**/*.d
+**/*.o
+**/*.so
+**/*.dylib
+**/*.dll
+**/*.exe
+**/*.pdb
+
+# Rust dependencies
+/Cargo.lock
+/cargo-vendor/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.iml
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Rust debug and profiling files
+**/debug/
+**/release/
+**/benchmarks/
+**/profile/
+
+# Rust analyzer files
+/.rust-analyzer.json
+
+# Clippy lint output
+clippy.json
+
+# WGPU shader compilation cache (if applicable)
+**/*.spv
+**/*.cache
+
+# System-specific files
+.DS_Store
+Thumbs.db
